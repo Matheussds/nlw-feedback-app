@@ -73,7 +73,7 @@ export function FeedbackContentStep({
                         className="p-2 bg-brand-500 rounded-md border-transparent flex-1 flex justify-center items-center text-sm hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 disabled:opacity-50 disabled:hover:bg-brand-500"
                         onClick={handleSubmitFeedback}
                     >
-                        {isSendingFeedback? <Loading /> : 'Enviar feedback'};
+                        {isSendingFeedback? <Loading /> : 'Enviar feedback'}
                     </button>
                 </footer>
             </form>
